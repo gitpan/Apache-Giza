@@ -1,0 +1,28 @@
+Apache/Giza version 0.01
+========================
+
+This is the mod_perl handler for the Giza Web-content Management System.
+Using this instead of the CGI version will result in better performance.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL <giza2 prefix>
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Giza2 <http://ask.intra/development/giza>
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2002 ABC Startsiden AS, Ask Solem Hoel
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+
